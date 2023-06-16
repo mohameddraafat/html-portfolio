@@ -1,0 +1,189 @@
+*{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color: #222124;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 140px;
+    position: fixed;
+    z-index: 999;
+}
+.logo{
+    color: #e0cb0d;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3rem;
+    transition: 0.7s ease;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1em;
+    padding-left: 20px;
+}
+.navigation a:hover{
+    color: white;
+}
+.hero-section{
+    width: 100%;
+    background-image: url(images/main.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 260px 0;
+}
+h1{
+    font-family: 'Aoboshi One', serif;
+    color: #e0cb0d;
+    font-size: 3rem;
+    margin: 0;
+}
+h3{
+    color: #e0cb0d;
+    font-size: 1.5rem;  
+}
+.hero{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-bottom: 50px;
+}
+.icons{
+    color: white;
+    margin: 8px;
+    font-size: 1.2em;
+}
+.about-section{
+ width: 100%;
+ padding: 5.125em 8.625em;
+ background-image: url(images/About-bg.png);
+ background-size: cover;
+}
+.title{
+    color: #e0cb0d;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+    font-family: 'Aoboshi One', serif;
+}
+.about-me{
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 1.5rem;
+}
+.projects-section{
+    background-image: url(images/bg.jpg);
+    object-fit: cover;
+    padding: 3.125em;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.projects-section .content{
+    margin-top: 150px;
+}
+.projects-section .cards{
+    min-height: 12em;
+    width: 20em;
+    overflow: hidden;
+    margin: 40px 30px;
+    transition: 0.7s ease;
+}
+.projects-section .cards:hover{
+    transform: scale(1.1);
+}
+.projects-section .project-photo img{
+    width: 100%;
+}
+.project-info{
+    display: flex;
+    flex-flow: column;   
+}
+h5{
+    color: white;
+    margin: 0;
+    font-size: 1em;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+.project-details{
+    text-decoration: none;
+    color: #e0cb0d;
+    font-size: 0.8em;
+}
+.project-details:hover{
+    color: white;
+}
+.contact-section{
+    padding: 20px 0 60px 0;
+}
+.contact-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact-cards .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    margin: 4em 2em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 25%);
+    width: 18em;
+    transition: 0.7s ease;
+}
+.contact-cards .card:hover{
+    transform: scale(1.1);
+}
+.icon-box{
+    color: #e0cb0d;
+    font-size: 3em;
+}
+.contact-title{
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+.footer{
+    background-color: #222124;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{
+    color: white;
+    font-size: 0.7em;
+}
+span{
+    color: #e0cb0d;
+    font-size: 1em;
+    font-weight: bold;
+}
+.footer .icons-box{
+    display: flex;
+    align-items: center;
+}
