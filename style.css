@@ -39,7 +39,7 @@ header{
 }
 .hero-section{
     width: 100%;
-    background-image: url(images/main.jpg);
+    background-image: url(main.jpg);
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -71,7 +71,7 @@ h3{
 .about-section{
  width: 100%;
  padding: 5.125em 8.625em;
- background-image: url(images/About-bg.png);
+ background-image: url(About-bg.png);
  background-size: cover;
 }
 .title{
@@ -91,7 +91,7 @@ h3{
     line-height: 1.5rem;
 }
 .projects-section{
-    background-image: url(images/bg.jpg);
+    background-image: url(bg.jpg);
     object-fit: cover;
     padding: 3.125em;
 }
