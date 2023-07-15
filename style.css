@@ -187,3 +187,63 @@ span{
     display: flex;
     align-items: center;
 }
+
+@media (orientation: portrait)  {
+    header {
+        padding: 10px 50px;
+    }
+    .logo{
+        font-size: 1.8em;
+    }
+    p {
+        font-size: 1.5em;
+    }
+    .navigation a{
+        font-size: 1.2em;
+    }
+    h1 {
+        font-size: 3.5em;
+    }
+    h3 {
+        font-size: 2em;
+    }
+    h5 {
+        font-size: 1.5em;
+    }
+    .title {
+        font-size: 2.5em;
+    }
+    .icons {
+        font-size: 2em;
+    }
+    .about-section {
+        padding: 5.125em 4.625em;
+    }
+    .projects-section .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects-section .cards{
+        min-height: 18em;
+        width: 26em;
+    }
+    .project-details {
+        font-size: 1.3em;
+    }
+    .contact-section .contact-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-cards .card {
+        width: 23em;
+    }
+    .icon-box{
+        font-size: 3.5em;
+    }
+    .contact-title{
+        font-size: 1.7em;
+    }
+    .footer p{
+        font-size: 1.2em;
+    }
+}
